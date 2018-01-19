@@ -11,4 +11,24 @@ export class HomePage {
 
   }
 
+  workingInQatar(){
+    this.navCtrl.push("WorkingPage");
+  }
+
+  getHelp(){
+    this.navCtrl.setRoot("HelpPage");
+  }
+
+  about(){
+    this.navCtrl.setRoot("AboutPage");
+  }
+
+  applying(){
+    this.navCtrl.setRoot("ApplyingPage");
+  }
+
+  lookingForWork(){
+    this.navCtrl.push("JobSearch");
+  }
+
 }

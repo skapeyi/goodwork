@@ -22,4 +22,8 @@ export class WorkingPage {
     console.log('ionViewDidLoad WorkingPage');
   }
 
+  hours(){
+    this.navCtrl.push("WorkingHoursPage");
+  }
+
 }
