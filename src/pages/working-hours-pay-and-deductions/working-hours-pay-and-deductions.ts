@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the WorkingPage page.
+ * Generated class for the WorkingHoursPayAndDeductionsPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -10,28 +10,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-working',
-  templateUrl: 'working.html',
+  selector: 'page-working-hours-pay-and-deductions',
+  templateUrl: 'working-hours-pay-and-deductions.html',
 })
-export class WorkingPage {
+export class WorkingHoursPayAndDeductionsPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad WorkingPage');
-  }
-
-  hours(){
-    this.navCtrl.push("WorkingHoursPage");
-  }
-
-  wages(){
-    this.navCtrl.push('WorkingWagesPage');
-  }
-
-  law(){
-    this.navCtrl.push("WorkingLawPage");
+    console.log('ionViewDidLoad WorkingHoursPayAndDeductionsPage');
   }
 
 }
